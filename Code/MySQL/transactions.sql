@@ -1,0 +1,365 @@
+
+CREATE TABLE TRANSACTIONS
+(
+	Patient_ID	int
+,	Store_ID	smallint
+,	Prescriber_ID	int
+,	Drug_ID	smallint
+,	SourceSystem_Code	varchar(1)
+,	Prescription_Week	DATE
+,	Dispense_Week	DATE
+,	Drug_Code	varchar(37)
+,	NHS_Code	varchar(6)
+,	IsDeferredScript	tinyint
+,	Script_Qty	smallint
+,	Dispensed_Qty	smallint
+,	MaxDispense_Qty	smallint
+,	PatientPrice_Amt	float
+,	WholeSalePrice_Amt	float
+,	GovernmentReclaim_Amt	float
+,	RepeatsTotal_Qty	smallint
+,	RepeatsLeft_Qty	smallint
+,	StreamlinedApproval_Code	smallint
+)
+
+
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_1.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_2.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_3.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_4.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_5.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_6.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_7.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_8.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_9.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_10.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+
+
+
+
+
+
+
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_11.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_12.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_13.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_14.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_15.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_16.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_17.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_18.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_19.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_20.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+
+
+
+
+
+
+
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_21.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_22.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_23.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_24.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_25.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_26.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_27.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_28.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_29.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_30.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+
+
+
+
+
+
+
+
+
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_31.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_32.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_33.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_34.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_35.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_36.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_37.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_38.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_39.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_40.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+
+
+
+
+
+
+
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_41.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_42.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_43.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_44.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_45.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_46.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_47.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_48.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_49.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+LOAD DATA LOCAL INFILE '/Volumes/JetDrive/Root/Datasets/Datathon/Patients/patients_50.txt'
+INTO TABLE TRANSACTIONS 
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES;
+
+
+
+
+
+
